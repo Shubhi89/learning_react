@@ -1,12 +1,9 @@
 import "./App.css";
-import ProductTab from "./productTab.jsx";
+import LudoBoard from "./ludoBoard.jsx";
 
 function App() {
   return (
-    <div>
-      <h2>Blockbuster Deals | Shop Now</h2>
-      <ProductTab/>
-    </div>
+    <LudoBoard/>
   );
 }
 
