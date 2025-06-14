@@ -1,9 +1,9 @@
 import "./App.css";
-import LudoBoard from "./ludoBoard.jsx";
+import TodoList from "./todoList";
 
 function App() {
   return (
-    <LudoBoard/>
+   <TodoList/>
   );
 }
 
