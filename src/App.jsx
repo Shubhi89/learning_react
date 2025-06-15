@@ -1,9 +1,9 @@
 import "./App.css";
-import TodoList from "./todoList";
+import Lottery from "./lottery";
 
 function App() {
   return (
-   <TodoList/>
+   <Lottery/>
   );
 }
 
