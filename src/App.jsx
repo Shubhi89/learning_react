@@ -3,7 +3,9 @@ import Lottery from "./lottery";
 
 function App() {
   return (
-   <Lottery/>
+    <>
+    <Lottery n={3} winningSum={15}/>
+   </>
   );
 }
 
