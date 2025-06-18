@@ -8,7 +8,8 @@ export default function Form() {
     }
     return (
         <form>
-            <input type="text" placeholder="enter text" value={text} onChange={handleTextChange}/>
+            <label htmlFor="text">Name</label>
+            <input type="text" placeholder="enter text" value={text} onChange={handleTextChange} id="text"/>
             <button>Submit</button>
         </form>
     )
