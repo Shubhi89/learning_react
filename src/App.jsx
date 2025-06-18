@@ -1,9 +1,9 @@
 import "./App.css";
-import Form from "./form";
+import CommentsForm from "./commentsForm";
 
 function App() {
   return (
-    <Form/>
+    <CommentsForm/>
   );
 }
 

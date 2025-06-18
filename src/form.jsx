@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 export default function Form() {
-    let [text , setText] = useState("shubhi");
+    let [text , setText] = useState("");
 
     let handleTextChange = (event) => {
         setText(event.target.value);
