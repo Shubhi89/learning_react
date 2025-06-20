@@ -1,9 +1,9 @@
 import "./App.css";
-import Counter from "./counter";
+import Joker from "./joker";
 
 function App() {
   return (
-   <Counter/>
+   <Joker/>
   );
 }
 
