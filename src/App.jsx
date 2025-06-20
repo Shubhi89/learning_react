@@ -1,9 +1,9 @@
 import "./App.css";
-import Comment from "./comment";
+import Counter from "./counter";
 
 function App() {
   return (
-    <Comment/>
+   <Counter/>
   );
 }
 
